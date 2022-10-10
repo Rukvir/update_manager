@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\test_DataBase",
+    "\\test_DataBase\\test_DataBase",
+    "\\test_DataBase\\test_DataBase\\bin",
+    "\\test_DataBase\\test_DataBase\\bin\\Release",
+    "\\test_DataBase\\test_DataBase\\Properties",
+    "\\test_DataBase\\test_DataBase\\Resources"
+  ],
+  "SelectedNode": "\\test_DataBase\\test_DataBase\\FillOrCancel.Designer.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -60,18 +60,18 @@ namespace test_DataBase
             if ((tableAccountUser.Rows.Count == 1))
             {
                 MessageBox.Show("Вы успешно вошли!", "Успешно!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Form1 form1 = new Form1();
+                Form frm_NavigationUser = new NavigationUser();
                 this.Hide();
-                form1.ShowDialog();
+                frm_NavigationUser.ShowDialog();
                 this.Show();
                 
             }
             else if (tableAccountAdmin.Rows.Count == 1)
             {
                 MessageBox.Show("АДМИН МЫ СКУЧАЛИ ПО ТЕБЕ!", "С возвращением!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Admin admin = new Admin();
+                Form frm_Navigation = new Navigation();
                 this.Hide();
-                admin.ShowDialog();
+                frm_Navigation.ShowDialog();
                 this.Show();
             }
             else

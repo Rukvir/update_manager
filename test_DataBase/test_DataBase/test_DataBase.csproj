@@ -46,13 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin.cs">
+    <Compile Include="DataBase.cs" />
+    <Compile Include="FillOrCancel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin.Designer.cs">
-      <DependentUpon>Admin.cs</DependentUpon>
+    <Compile Include="FillOrCancel.Designer.cs">
+      <DependentUpon>FillOrCancel.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataBase.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +64,24 @@
     </Compile>
     <Compile Include="log_in.Designer.cs">
       <DependentUpon>log_in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigation.Designer.cs">
+      <DependentUpon>Navigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavigationUser.Designer.cs">
+      <DependentUpon>NavigationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewCustomer.Designer.cs">
+      <DependentUpon>NewCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,14 +96,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>testDataSet.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Admin.resx">
-      <DependentUpon>Admin.cs</DependentUpon>
+    <EmbeddedResource Include="FillOrCancel.resx">
+      <DependentUpon>FillOrCancel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="log_in.resx">
       <DependentUpon>log_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigation.resx">
+      <DependentUpon>Navigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavigationUser.resx">
+      <DependentUpon>NavigationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCustomer.resx">
+      <DependentUpon>NewCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
